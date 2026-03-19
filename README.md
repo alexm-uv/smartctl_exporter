@@ -1,5 +1,7 @@
-[![CircleCI](https://circleci.com/gh/prometheus-community/smartctl_exporter.svg?style=svg)](https://circleci.com/gh/prometheus-community/smartctl_exporter)
-[![Container Repository on Quay](https://quay.io/repository/prometheuscommunity/smartctl-exporter/status "Container Repository on Quay")](https://quay.io/repository/prometheuscommunity/smartctl-exporter)
+# Forked from https://github.com/prometheus-community/smartctl_exporter
+Includes changes to support devices behind RAID controllers - see megaraid-support branch.
+
+The container image is not published in any public registry and is up to the user to build and use the image.
 
 # smartctl_exporter
 Export smartctl statistics to prometheus
